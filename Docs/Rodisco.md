@@ -5,9 +5,9 @@
 ## 🚀 Быстрый старт
 
 ```lua
-local DiscordWebhook = require(путь.к.модулю)
+local Rodisco = require(путь.к.модулю)
 
-local webhook = DiscordWebhook.new("https://discord.com/api/webhooks/ваш_вебхук")
+local webhook = Rodisco.new("https://discord.com/api/webhooks/ваш_вебхук")
 webhook:send("Привет из Roblox!")
 ```
 
