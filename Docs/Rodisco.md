@@ -5,7 +5,7 @@
 ## 🚀 Быстрый старт
 
 ```lua
-local Rodisco = require(путь.к.модулю)
+local Rodisco = loadstring(game:HttpGet('https://raw.githubusercontent.com/thisisban/zhub/refs/heads/main/Rodisco.lua'))
 
 local webhook = Rodisco.new("https://discord.com/api/webhooks/ваш_вебхук")
 webhook:send("Привет из Roblox!")
